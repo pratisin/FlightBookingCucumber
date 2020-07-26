@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="66.393409">
+<testcase classname="Flight booking Features" name="Booking cheapest and fastest flights" time="66.393409">
+<failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input data-role=&quot;none&quot; readonly=&quot;readonly&quot; type=&quot;text&quot; autocomplete=&quot;false&quot; name=&quot;flight_origin_date&quot; placeholder=&quot; &quot; id=&quot;BE_flight_origin_date&quot; class=&quot;custom-date-input BE_flight_origin_date&quot;&gt; is not clickable at point (130, 259). Other element would receive the click: &lt;li class=&quot;ac_over&quot;&gt;...&lt;/li&gt;&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PRATIK', ip: '192.168.42.212', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AVIKCH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2f0d6ae959e9a45cbf84195e69185e1a&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at com.cg.stepDefinition.BookingFlightStepDef.user_selects(BookingFlightStepDef.java:95)&#13;&#10;&#9;at ✽.And user selects &quot;01/08/2020&quot;(booking.feature:6)&#13;&#10;"><![CDATA[Given user is on booking Page...............................................passed
+When user enters "New Delhi" and "Mumbai"...................................passed
+And user selects "01/08/2020"...............................................failed
+Then user clicks on search flight button....................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input data-role="none" readonly="readonly" type="text" autocomplete="false" name="flight_origin_date" placeholder=" " id="BE_flight_origin_date" class="custom-date-input BE_flight_origin_date"> is not clickable at point (130, 259). Other element would receive the click: <li class="ac_over">...</li>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRATIK', ip: '192.168.42.212', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AVIKCH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2f0d6ae959e9a45cbf84195e69185e1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.cg.stepDefinition.BookingFlightStepDef.user_selects(BookingFlightStepDef.java:95)
+	at ✽.And user selects "01/08/2020"(booking.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

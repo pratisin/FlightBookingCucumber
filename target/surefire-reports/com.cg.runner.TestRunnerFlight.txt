@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.runner.TestRunnerFlight
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 109.098 sec <<< FAILURE!
+And user selects "01/08/2020"(| New Delhi | Mumbai | 01/08/2020 |)  Time elapsed: 0.014 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input data-role="none" readonly="readonly" type="text" autocomplete="false" name="flight_origin_date" placeholder=" " id="BE_flight_origin_date" class="custom-date-input BE_flight_origin_date"> is not clickable at point (130, 331). Other element would receive the click: <iframe title="notification-frame-~5586c904" name="notification-frame-~5586c904" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; z-index: 16776272; position: fixed; visibility: visible; height: 100%; width: 100%; top: 0px; left: 0px; right: auto;" data-notification-layout-id="~184fc0b7" data-notification-layout-name="modal"></iframe>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRATIK', ip: '192.168.42.171', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AVIKCH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea1024cfc5ce5325ca0bff801d8d6268
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.cg.stepDefinition.BookingFlightStepDef.user_selects(BookingFlightStepDef.java:95)
+	at ?.And user selects "01/08/2020"(booking.feature:6)
+
+| New Delhi | Mumbai | 01/08/2020 |  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input data-role="none" readonly="readonly" type="text" autocomplete="false" name="flight_origin_date" placeholder=" " id="BE_flight_origin_date" class="custom-date-input BE_flight_origin_date"> is not clickable at point (130, 331). Other element would receive the click: <iframe title="notification-frame-~5586c904" name="notification-frame-~5586c904" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; z-index: 16776272; position: fixed; visibility: visible; height: 100%; width: 100%; top: 0px; left: 0px; right: auto;" data-notification-layout-id="~184fc0b7" data-notification-layout-name="modal"></iframe>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRATIK', ip: '192.168.42.171', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AVIKCH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea1024cfc5ce5325ca0bff801d8d6268
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.cg.stepDefinition.BookingFlightStepDef.user_selects(BookingFlightStepDef.java:95)
+	at ?.And user selects "01/08/2020"(booking.feature:6)
+
